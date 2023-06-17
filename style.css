@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(18, 18, 62) ;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+ color: rgb(32, 32, 91);
+ font-size: 1.04rem;
+}
+nav ul li  {
+    list-style: none;
+    margin: 0 23px;
+}
+.left {
+    font-size: 1.5rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+
+}
+.firstsection > div{
+    width: 30%;
+
+}
+.leftsection {
+    font-size: 2rem;
+    
+}
+
+.rightsection img {
+    width: 80%;
+}
+.purple {
+    color: blueviolet;
+}
+#element {
+    color: blueviolet;
+}
+main hr {
+    border: 0px;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.text-gray {
+    color: grey;
+}
+.secondsection h1 {
+    font-size: 2rem;
+}
+.secondsection .box {
+    background-color: white;
+    width: 80vh;
+    height: px;
+    margin: 56px 0;
+}
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+}
+.leftsection .buttons {
+    padding: 23px 0;
+}
+.leftsection .btn {
+    background-color: #1e2167 ;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 4px;
+    border-style: groove;
+    cursor: pointer;
+}
+.leftsection .buttons {
+    display: flex;
+}
+.leftsection .buttons a  {
+    text-decoration: none;
+    color: white;
+}
+.leftsection .buttons a:hover {
+ color: rgb(132, 132, 158);
+ font-size: 1.04rem;
+}
+.container1{
+display: flex;
+flex-direction: row;
+padding: 40px;
+}
+.card{
+background-color:blueviolet;
+border-radius: 10px;
+margin: 20px;
+padding: 0px 5;
+width: 22%;
+text-align: center;
+transition: 0.5s;
+box-shadow: 3px 3px 10px rgb(198, 197, 197);
+}
+.card h3{
+font-size: 1.6rem;
+margin: 30px;
+color: white;
+}
+.head1{
+text-align: center;
+margin-top: 40px;
+margin-bottom: 50px;
+margin-left: 350px;
+width: 50%;
+}
+.card:hover{
+transform: translateY(-50px);
+cursor: pointer;
+background-color: rgb(96, 104, 220);
+color: white;
+}
+.secondsection .card  {
+text-align: center;
+justify-content: space-around;
+padding: 20px;
+}
+.secondsection .card {
+font-family: 'Poppins', sans-serif;
+}
+.footer {
+background-color: #0e0e1a;
+height: 100px;
+padding: 2px 122px;
+}
+.mail {
+font-family: 'poppins',sans-serif;
+text-align: center;
+}
+.mail .a {
+text-decoration: none;
+}
+.footer .first {
+padding-top: 10px;
+}
